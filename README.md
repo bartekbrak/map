@@ -48,12 +48,11 @@ $ hg log -M --template '{author}\n' | sort | map mymap | uniq -c
 ### install
 ```bash
 git clone git@github.com:bartekbrak/map.git
-pip install map
+pip install ./map
 # or, if you know user siteinstallation
-pip install --user map
-# or soon, from PyPI, just
-pip install map
-# without cloning
+pip install --user ./map
+# or one day, from PyPI, just
+pip install map  # without cloning
 ```
 
 ### todo
