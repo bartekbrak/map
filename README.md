@@ -57,3 +57,4 @@ pip install map  # without cloning
 
 ### todo
 - handle regular expressions
+- handle normal call, no pipes
